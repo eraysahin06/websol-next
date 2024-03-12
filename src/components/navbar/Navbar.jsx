@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gradient-to-r from-blue-900 to-purple-600 px-6 py-4 text-white">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between max-w-[720px]">
         <div className="flex-grow-0">
           <Link href="/">
               <Image src="/assets/websol.png" alt="WebSol Logo" width={120} height={60} />
